@@ -1,0 +1,2 @@
+# Remote-Shell-Connection
+A Client Server to implement a simple remote shell connection where the server process and the client process will run on two different machines and communicate using Sockets.  When the server gets a client, forks and, let the child process take care of the client in a separate function, while the parent process goes back to wait for the next client. In this way, the server is capable to service multiple clients at the same time. Built using C, Unix
